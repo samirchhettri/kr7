@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Hotel KR7 in Camp Road, Dharan offers clean rooms, warm hospitality, and delicious Nepali and international food." />
+  <title>Hotel KR7 | Camp Rd, Dharan</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <header class="hero" id="home">
+    <nav class="nav container" aria-label="Primary navigation">
+      <a class="brand" href="#home" aria-label="Hotel KR7 home">
+        <span class="brand-mark" aria-hidden="true">KR7</span>
+        <span>
+          <span class="brand-title">Hotel KR7</span>
+          <span class="brand-subtitle">Camp Rd, Dharan, Nepal</span>
+        </span>
+      </a>
+
+      <ul class="menu">
+        <li><a href="#about">About</a></li>
+        <li><a href="#food">Food</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="hero-content container">
+      <p class="tag">Welcome to KR7</p>
+      <h1>Comfortable stay in the heart of Dharan</h1>
+      <p>
+        Clean rooms, warm hospitality, and tasty local and international food — perfect for family visits,
+        business trips, and weekend breaks.
+      </p>
+      <a class="btn" href="#contact">Book Your Stay</a>
+
+      <div class="quick-links" aria-label="Section shortcuts">
+        <a href="#about">About</a>
+        <a href="#food">Food</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="section container" id="about">
+      <h2>Why Guests Love Hotel KR7</h2>
+      <div class="grid three">
+        <article class="card">
+          <h3>Prime Location</h3>
+          <p>Located on Camp Road, close to transport, markets, and local attractions in Dharan.</p>
+        </article>
+        <article class="card">
+          <h3>Clean and Comfortable</h3>
+          <p>Well-maintained rooms with modern essentials, daily housekeeping, and friendly service.</p>
+        </article>
+        <article class="card">
+          <h3>Great Dining</h3>
+          <p>Fresh meals prepared daily, from Nepali classics to favorite comfort dishes.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section container" id="food">
+      <h2>KR7 Food Corner</h2>
+      <p class="section-lead">Enjoy a flavorful menu featuring local Nepali favorites and popular dishes.</p>
+
+      <div class="grid two">
+        <article class="card menu-card">
+          <h3>Nepali Specials</h3>
+          <ul>
+            <li>Thakali Khana Set</li>
+            <li>Chicken Momo (Steam/Fry)</li>
+            <li>Buff Sekuwa</li>
+            <li>Aloo Tama</li>
+          </ul>
+        </article>
+
+        <article class="card menu-card">
+          <h3>Quick Bites and Drinks</h3>
+          <ul>
+            <li>Chicken Chowmein</li>
+            <li>Paneer Chilli</li>
+            <li>Club Sandwich</li>
+            <li>Masala Tea and Fresh Coffee</li>
+          </ul>
+        </article>
+      </div>
+
+      <div class="food-gallery" aria-label="Food images from KR7 style menu">
+        <figure class="food-photo card">
+          <img src="https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=900&q=80" alt="Samosa served with spicy chutney" loading="lazy" />
+          <figcaption>Samosa with chutney</figcaption>
+        </figure>
+        <figure class="food-photo card">
+          <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80" alt="Nepali meal platter with rice, curry and sides" loading="lazy" />
+          <figcaption>KR7 Nepali meal set</figcaption>
+        </figure>
+        <figure class="food-photo card">
+          <img src="https://images.unsplash.com/photo-1555126634-323283e090fa?auto=format&fit=crop&w=900&q=80" alt="Hot thukpa bowl garnished with herbs" loading="lazy" />
+          <figcaption>Fresh hot thukpa</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section muted" id="contact">
+      <div class="container contact-wrap">
+        <div>
+          <h2>Contact and Reservation</h2>
+          <p>Call us to reserve your room or ask about our food menu.</p>
+        </div>
+        <address class="contact-card">
+          <p><strong>Hotel KR7</strong></p>
+          <p>Camp Rd, Dharan, Nepal</p>
+          <p>Phone: <a href="tel:+9779800000000">+977-98XXXXXXXX</a></p>
+          <p>Email: <a href="mailto:stay@hotelkr7.com">stay@hotelkr7.com</a></p>
+        </address>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Hotel KR7 • Dharan, Nepal</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
